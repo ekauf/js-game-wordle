@@ -1,0 +1,34 @@
+.game-container {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 3fr 2fr;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.output-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  justify-items: center;
+
+  &__display-box {
+    background-color: transparent;
+    color: black;
+    border: 1px solid #3a3a3c;
+    width: 2em;
+    height: 2em;
+    margin: 0.2em;
+    font-size: 26px;
+    color: #ffffff;
+    // display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.score-board {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+}
