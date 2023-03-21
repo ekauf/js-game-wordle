@@ -10,9 +10,15 @@
     color: #ceecff;
     border: 1.2px solid #818384;
     border-radius: 10%;
-    padding: 0.35em;
-    margin: 0.1em;
+    padding: 0.25rem;
+    margin: 0.1rem;
     font-size: 15px;
     cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .input-grid__button {
+    padding: 0.7rem;
   }
 }
